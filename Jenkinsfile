@@ -1,7 +1,7 @@
 pipeline {
     agent {
         dockerfile {
-            label 'gereric'
+            label 'generic'
         } //dockerfile
     } //agent
     stages {
