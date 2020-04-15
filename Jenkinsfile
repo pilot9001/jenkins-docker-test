@@ -1,10 +1,6 @@
 pipeline {
     agent {
         dockerfile true
-        // docker {
-        //     image 'python'
-        //     label 'generic'
-        // } //docker
     } //agent
     stages {
         stage("Run Hello World") {
